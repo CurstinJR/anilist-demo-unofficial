@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# AniList Demo (Unofficial)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun project to learn about [GraphQL](https://graphql.org/learn/) using [Apollo Client](https://www.apollographql.com/docs/react), explore [React](https://reactjs.org/docs/getting-started.html) and [TailwindCSS](https://tailwindcss.com/docs/installation) a bit more.
 
-## Available Scripts
+I am uploading to GitHub, incase local disappears.
 
-In the project directory, you can run:
+## Things to learn
 
-### `npm start`
+Maybe learn about [Redux](https://redux.js.org/), to manage the global state of the project application. Learn [React Routing](https://reactrouter.com/) if application requires.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+AniList is an anime platform where you can track, share, and discover your favorite anime and manga. Using [AniList API](https://anilist.co/graphiql).
 
-### `npm test`
+[AniList Documentation](https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql/getting-started)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installation
 
-### `npm run build`
+If you wanna try it out yourself, you need [NodeJS & NPM](https://nodejs.org/en/). You can read the site's docs for your OS installation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After that fork and clone the project. Navigate to the working directory. Open CLI/terminal and type
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+this will download all the dependencies, it might take awhile depending on your internet speed.
 
-### `npm run eject`
+After download, in the same directory, start the server with the command
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+your default browser should open on `localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="https://github.com/CurstinJR">
+    <img src=https://avatars.githubusercontent.com/u/67284885?v=4 width=100px></img>
+    <br />
+    <sub><b>Curstin Rose</b></sub>
+</a>
 
-## Learn More
+# Built with
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/) - UI Library
+- [Apollo Client](https://www.apollographql.com/docs/react) - GraphQL Client
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [DaisyUI](https://daisyui.com/) - Tailwind CSS component library
+- [AniList](https://anilist.co/) - AniList API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](https://img.shields.io/badge/React-UI-61dbfb)
+![](https://img.shields.io/badge/GraphQL-API-ff69b4)
+![](https://img.shields.io/badge/Apollo-Client-ad9bf6)
+![](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
+![](https://img.shields.io/badge/DaisyUI-CSS-6419e6)
+![](https://img.shields.io/badge/AniList-Anime-darkblue)
 
-### Code Splitting
+# Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for educational purposes only.
