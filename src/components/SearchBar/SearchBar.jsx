@@ -1,5 +1,4 @@
-// TODO: Implement search functionality
-const Search = ({ setSearchQuery }) => {
+const SearchBar = ({ setSearchQuery }) => {
   const onChange = (evt) => {
     setSearchQuery(evt.target.value);
   };
@@ -17,4 +16,4 @@ const Search = ({ setSearchQuery }) => {
   );
 };
 
-export default Search;
+export default SearchBar;

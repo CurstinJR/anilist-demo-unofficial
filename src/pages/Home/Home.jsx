@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Search from "../../components/Search/Search";
+import SearchBar from "../../components/SearchBar/SearchBar";
 import Header from "../../layouts/Header/Header";
 import Showcase from "../../layouts/Showcase/Showcase";
 
@@ -7,7 +7,7 @@ const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <>
-      <Header search={<Search setSearchQuery={setSearchQuery} />} />
+      <Header searchBar={<SearchBar setSearchQuery={setSearchQuery} />} />
       <Showcase searchValue={searchQuery} />
     </>
   );

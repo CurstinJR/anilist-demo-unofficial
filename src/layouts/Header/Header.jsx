@@ -1,4 +1,4 @@
-const Header = ({ search }) => {
+const Header = ({ searchBar }) => {
   return (
     <nav className="navbar bg-base-100">
       {/* Logo Name */}
@@ -8,7 +8,7 @@ const Header = ({ search }) => {
         </a>
       </div>
       {/* Search Input */}
-      {search}
+      {searchBar}
     </nav>
   );
 };
